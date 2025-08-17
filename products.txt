@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8"><title>Products — Oslo Signalservice</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html,body{background:#0b0b0b;color:#e9e6d3;margin:0;padding:0}
+  body{font-family:"Courier New",Courier,monospace}
+  .page{max-width:940px;margin:32px auto;border:1px solid #3a3326;padding:24px;background:#101010}
+  a{color:#e9e6d3;text-decoration:none;border-bottom:1px dotted #b08d57}
+  a:hover{color:#fff}
+  .nav{margin-bottom:16px;font-size:14px}
+  .nav a{margin-right:12px;border-bottom:none}
+  h1{font-weight:normal;font-size:24px;margin:0 0 10px}
+  h2{font-weight:normal;font-size:18px;margin:16px 0 8px;color:#b08d57;border-bottom:1px dashed #3a3326;padding-bottom:4px}
+  p{line-height:1.45;margin:6px 0 10px}
+  .small{font-size:12px;color:#b8b3a1}
+  .stamp{border:1px solid #3a3326;padding:6px 10px;display:inline-block}
+  .grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+  .block{border:1px solid #3a3326;padding:8px;background:#0b0b0b}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="nav">
+    <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="products.html">Products</a> · <a href="contact.html">Contact</a>
+  </div>
+
+  <h1>Products / Varer</h1>
+  <p><strong>NO:</strong> Bestilling via e-post: <a href="mailto:signal@oslosignalservice.no">signal@oslosignalservice.no</a><br>
+     <strong>EN:</strong> Order by email: <a href="mailto:signal@oslosignalservice.no">signal@oslosignalservice.no</a></p>
+
+  <div class="grid">
+    <!-- 1 -->
+    <div class="block" id="os-pd-001">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-PD-001</text></svg>
+      <h2>OS-PD-001 — Mono Synth Distortion v1</h2>
+      <p><strong>NO:</strong> Høy headroom, linjenivå, klassisk hard-clipping og passivt toneledd. 9V DC, senter negativ.</p>
+      <p><strong>EN:</strong> High headroom, line-level, classic hard-clipping with passive tone. 9V DC, center negative.</p>
+      <p class="small">Pris / Price: NOK 2 400</p>
+      <p><a class="stamp" href="mailto:signal@oslosignalservice.no?subject=Order%20OS-PD-001%20Mono%20Synth%20Distortion%20v1&body=Hei/Hello,%0D%0AJeg%20%C3%B8nsker%20%C3%A5%20bestille%20OS-PD-001.%0D%0ANavn/Name:%20%0D%0AAdresse/Address:%20%0D%0ATelefon/Phone:%20%0D%0A">Bestill via e-post / Order by email</a></p>
+    </div>
+    <!-- 2 -->
+    <div class="block" id="os-pd-002">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-PD-002</text></svg>
+      <h2>OS-PD-002 — Dual Drive (Stereo proto)</h2>
+      <p><strong>NO:</strong> Tidlig prototype av stereo drive. Ikke for salg ennå.</p>
+      <p><strong>EN:</strong> Early prototype stereo drive. Not for sale yet.</p>
+      <p class="small">Pris / Price: —</p>
+      <p><a class="stamp" href="mailto:signal@oslosignalservice.no?subject=Inquiry%20OS-PD-002%20Dual%20Drive&body=Hei/Hello,%0D%0AJeg%20%C3%B8nsker%20mer%20info%20om%20OS-PD-002.%0D%0A">Forespørsel / Inquiry</a></p>
+    </div>
+    <!-- 3 -->
+    <div class="block" id="os-rp-phil">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-RP-PHIL</text></svg>
+      <h2>OS-RP-PHIL — Philips SR LBB1186/00 — recap</h2>
+      <p><strong>NO:</strong> Referanseprosjekt (restaurert/recap). Dokumentert arbeid.</p>
+      <p><strong>EN:</strong> Reference repair (restored/recapped). Documented work.</p>
+      <p class="small">Status: Fullført / Completed</p>
+      <p><a class="stamp" href="mailto:signal@oslosignalservice.no?subject=Inquiry%20OS-RP-PHIL%20Philips%20SR%20LBB1186%2F00&body=Hei/Hello,%0D%0AJeg%20%C3%B8nsker%20mer%20info%20om%20OS-RP-PHIL.%0D%0A">Forespørsel / Inquiry</a></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

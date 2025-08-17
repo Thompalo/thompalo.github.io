@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8"><title>About — Oslo Signalservice</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html,body{background:#0b0b0b;color:#e9e6d3;margin:0;padding:0}
+  body{font-family:"Courier New",Courier,monospace}
+  .page{max-width:940px;margin:32px auto;border:1px solid #3a3326;padding:24px;background:#101010}
+  a{color:#e9e6d3;text-decoration:none;border-bottom:1px dotted #b08d57}
+  a:hover{color:#fff}
+  .nav{margin-bottom:16px;font-size:14px}
+  .nav a{margin-right:12px;border-bottom:none}
+  h1{font-weight:normal;font-size:24px;margin:0 0 10px}
+  h2{font-weight:normal;font-size:18px;margin:16px 0 8px;color:#b08d57;border-bottom:1px dashed #3a3326;padding-bottom:4px}
+  p{line-height:1.45;margin:6px 0 10px}
+  .small{font-size:12px;color:#b8b3a1}
+  .block{border:1px solid #3a3326;padding:8px;background:#0b0b0b}
+  .flex{display:flex;gap:12px}
+  @media (max-width:740px){.flex{display:block}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="nav">
+    <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="products.html">Products</a> · <a href="contact.html">Contact</a>
+  </div>
+
+  <h1>About / Om</h1>
+  <p><strong>NO:</strong> Et lite, kompromissløst verksted for analogt signalarbeid: synth-pedaler, modulære eksperimenter og restaurering av eldre utstyr. Filosofi: høyt headroom, gjenbruk av materiale, dokumentert håndverk.</p>
+  <p><strong>EN:</strong> A small, uncompromising workshop for analogue signal craft: synth-oriented pedals, modular experiments, and restoration. Philosophy: high headroom, reclaimed materials, documented craft.</p>
+
+  <div class="flex">
+    <div class="block" style="flex:1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Workshop">
+        <rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">WORKSHOP</text>
+      </svg>
+      <div class="small">NO: Verksted · EN: Workshop</div>
+    </div>
+    <div class="block" style="flex:1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Detail">
+        <rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">DETAIL</text>
+      </svg>
+      <div class="small">NO: Detalj · EN: Detail</div>
+    </div>
+  </div>
+
+  <h2>Prinsipp / Ethos</h2>
+  <ul>
+    <li>Analogt først • Analogue first</li>
+    <li>Én funksjon = én bryter • One function = one switch</li>
+    <li>Gjenbruk og materialfølelse • Reclaimed materials & tactility</li>
+    <li>Måling og dokumentasjon • Measurement & documentation</li>
+  </ul>
+</div>
+</body>
+</html>

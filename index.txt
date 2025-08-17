@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="utf-8"><title>Oslo Signalservice — Home</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html,body{background:#0b0b0b;color:#e9e6d3;margin:0;padding:0}
+  body{font-family:"Courier New",Courier,monospace}
+  .page{max-width:940px;margin:32px auto;border:1px solid #3a3326;padding:24px;background:#101010}
+  a{color:#e9e6d3;text-decoration:none;border-bottom:1px dotted #b08d57}
+  a:hover{color:#fff}
+  .nav{margin-bottom:16px;font-size:14px}
+  .nav a{margin-right:12px;border-bottom:none}
+  h1{font-weight:normal;font-size:24px;margin:0 0 10px}
+  h2{font-weight:normal;font-size:18px;margin:16px 0 8px;color:#b08d57;border-bottom:1px dashed #3a3326;padding-bottom:4px}
+  p{line-height:1.45;margin:6px 0 10px}
+  .small{font-size:12px;color:#b8b3a1}
+  .stamp{border:1px solid #3a3326;padding:6px 10px;display:inline-block}
+  .grid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+  .block{border:1px solid #3a3326;padding:8px;background:#0b0b0b}
+  .flex{display:flex;gap:12px}
+  @media (max-width:740px){.flex{display:block}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="nav">
+    <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="products.html">Products</a> · <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Emblem (inline SVG) -->
+  <svg viewBox="0 0 200 200" role="img" aria-label="Oslo Signalservice emblem" style="width:160px;display:block;margin:8px auto 12px;">
+    <circle cx="100" cy="100" r="94" fill="#0b0b0b" stroke="#b08d57" stroke-width="4"/>
+    <g fill="#e9e6d3" stroke="#0b0b0b" stroke-width="2">
+      <circle cx="100" cy="78" r="34"/>
+      <rect x="78" y="98" width="44" height="20" rx="3" ry="3"/>
+      <circle cx="88" cy="76" r="7" fill="#0b0b0b"/><circle cx="112" cy="76" r="7" fill="#0b0b0b"/>
+      <polygon points="100,84 94,94 106,94" fill="#0b0b0b"/>
+      <line x1="86" y1="108" x2="114" y2="108" stroke="#0b0b0b" stroke-width="2"/>
+      <line x1="92" y1="118" x2="92" y2="108" stroke="#0b0b0b" stroke-width="2"/>
+      <line x1="100" y1="118" x2="100" y2="108" stroke="#0b0b0b" stroke-width="2"/>
+      <line x1="108" y1="118" x2="108" y2="108" stroke="#0b0b0b" stroke-width="2"/>
+    </g>
+    <!-- crossed lightning (schematic vibe) -->
+    <g stroke="#b08d57" stroke-width="6" fill="none">
+      <polyline points="52,146 78,146 68,166 94,166 84,186" />
+      <polyline points="148,146 122,146 132,166 106,166 116,186" />
+    </g>
+  </svg>
+
+  <div class="stamp small">OSLO SIGNALSERVICE — EST. 2025 · Signalfører / Signal Operator</div>
+  <h1>Oslo Signalservice</h1>
+  <p><strong>NO:</strong> Analogt signalverksted i Oslo. Pedaler, moduler og reparasjoner. 1950-talls stempelestetikk. Én funksjon = én bryter.</p>
+  <p><strong>EN:</strong> Analogue signal workshop in Oslo. Pedals, modules and repairs. 1950s stamp aesthetic. One function = one switch.</p>
+
+  <h2>Foto / Photos</h2>
+  <div class="flex">
+    <!-- inline placeholders: bytt ut med egne IMG senere -->
+    <div class="block" style="flex:1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Workshop photo">
+        <rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">PHOTO</text>
+      </svg>
+    </div>
+    <div class="block" style="flex:1">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Workshop photo">
+        <rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">PHOTO</text>
+      </svg>
+    </div>
+  </div>
+
+  <h2>Utvalgte / Featured</h2>
+  <div class="grid">
+    <div class="block"><a href="products.html#os-pd-001">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-PD-001</text></svg>
+    </a><div class="small">OS-PD-001 — Mono Synth Distortion v1</div></div>
+
+    <div class="block"><a href="products.html#os-pd-002">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-PD-002</text></svg>
+    </a><div class="small">OS-PD-002 — Dual Drive (Stereo proto)</div></div>
+
+    <div class="block"><a href="products.html#os-rp-phil">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#0b0b0b"/><rect x="10" y="10" width="1180" height="780" fill="none" stroke="#b08d57" stroke-width="6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#e9e6d3">OS-RP-PHIL</text></svg>
+    </a><div class="small">OS-RP-PHIL — Philips SR LBB1186/00 (recap)</div></div>
+  </div>
+</div>
+</body>
+</html>
