@@ -25,6 +25,8 @@
   display: block;
   margin: 0 auto;
 }
+.button-bar { display:flex; justify-content:center; gap:4px; flex-wrap:wrap; margin:12px 0 6px; }
+.button-bar img { margin:0; }   /* override the global auto margins */
 .small-photo {
   max-width: 350px;
   width: 100%; /* keeps it responsive */
@@ -88,7 +90,7 @@
   [ <a href="#">Prev</a> | <a href="#">Random</a> | <a href="#">Next</a> ]
 </div>
     <!-- Footer retro detail -->
-<div style="display:flex;justify-content:center;align-items:center;gap:4px;margin:12px 0 6px;flex-wrap:wrap;">
+<div class="button-bar">
   <img src="img/buttons/anarchynow.gif" width="88" height="31" alt="Anarchy Now!">
   <img src="img/buttons/cassette.gif" width="88" height="31" alt="Sounds Better on Cassette">
   <img src="img/buttons/classic_compatible.gif" width="88" height="31" alt="Classic Compatible">
